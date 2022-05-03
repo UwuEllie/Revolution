@@ -47,11 +47,11 @@ public class UIManager : MonoBehaviour
         _hitButton.onClick.AddListener(() => OnHitButtonEvent());
         _standButton.onClick.AddListener(() => OnStandButtonEvent());
         _newGameButton.onClick.AddListener(() => OnNewGameButtonEvent());
-        _exitButton.onClick.AddListener(() => OnExitButtonEvent());
+        //_exitButton.onClick.AddListener(() => OnExitButtonEvent());
 
-        _audioButton.onClick.AddListener(OnAudioButtonClick);
-        _audioImage = _audioButton.GetComponent<Image>();
-        _audioOnSprite = _audioImage.sprite;
+        //_audioButton.onClick.AddListener(OnAudioButtonClick);
+        //_audioImage = _audioButton.GetComponent<Image>();
+        //_audioOnSprite = _audioImage.sprite;
 
         _notificationHandler.Setup();
     }
