@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5914c858c039fcf41b6551be9c995877, type: 3}
   m_Name: TommyConnie
   m_EditorClassIdentifier: 
-  itemOwned: 1
+  itemOwned: 0
   itemName: 'Tommers '
   itemIcon: {fileID: 21300000, guid: 7e65318e7846c89458eb077d9320dd88, type: 3}
   combinable: 0
   combinableItems: []
   successBlockNames: []
-  failBlockNames: 
+  failBlockNames: fail
