@@ -9,7 +9,7 @@ public class RotateMirror : MonoBehaviour
     private float angleOffset;
     private Collider2D col;
 
-    bool canRotate;
+    public bool canRotate;
 
 
     private void Start()

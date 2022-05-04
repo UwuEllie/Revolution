@@ -37,6 +37,8 @@ namespace Fungus
         [SerializeField] protected bool useEventSystem;
 
         [SerializeField] protected bool beingDragged;
+        [SerializeField] protected bool HasBorders;
+        [SerializeField] protected Vector3[] borders; //LRTB
 
         public virtual bool BeingDragged
         {
@@ -214,6 +216,14 @@ namespace Fungus
         }
 
         protected virtual void OnMouseUp()
+        {
+            if (!useEventSystem)
+            {
+                DoEndDrag();
+            }
+        }
+
+        public void Ugh()
         {
             if (!useEventSystem)
             {
